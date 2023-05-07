@@ -1,0 +1,32 @@
+.container-task{
+    text-align: center;
+    background-color: rgb(59, 59, 59);
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.container-button{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.container-button button{
+    margin: 0 auto;
+}
+
+.container-button button:first-child{
+    background-color: green;
+}
+
+.container-button button:first-child:hover{
+    background-color: rgb(2, 170, 2);
+}
+
+.container-button button:last-child{
+    background-color: red;
+}
+
+.container-button button:last-child:hover{
+    background-color: rgb(132, 1, 1);
+}

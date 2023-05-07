@@ -1,0 +1,9 @@
+.container-list{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    padding: 20px;
+}
+
+.no-task{
+    text-align: center;
+}
